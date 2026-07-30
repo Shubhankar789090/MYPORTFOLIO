@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        (function () {
+            emailjs.init({
+                publicKey: "wCW2LLEFgkZTY2kbj",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Shubhankar Srivastava</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="" id="scrollToService">Skills</a>
+            <a href="" id="scrollToProject">Project</a>
+            <a href="" id="scrollToEducation">Education</a>
+            <a href="" id="scrollToContact">Contact</a>
+            <a href="" id="scrollToSkills">Skill</a>
+        </nav>
+
+    </header>
+    <!-- Home -->
+    <section class="home" id="home" style=" min-height:100vh ;">
+        <div class="home-img">
+            <img src="mine.png" alt="">
+        </div>
+        <div class="home-context">
+
+            <h2 class="typing-text">I'm a <span></span></h2>
+            <p>I am a Full Stack Developer with knowledge of Java, Spring Boot, Swing MVC, React.js, Bootstrap, HTML,
+                CSS, JavaScript, and MySQL. I have built several small projects during my training and enjoy developing
+                responsive websites and web applications. I like solving problems, learning new technologies, and
+                continuously improving my skills. I am looking for an opportunity to start my career and grow as a
+                developer by contributing to real-world projects as part of a collaborative team.
+            </p>
+            <br>
+            <br>
+            <a href="ShubhankarResume.docx" class="btn">Download CV</a>
+        </div>
+    </section>
+    <!-- Service -->
+    <section class="service" id="Service">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="service-container">
+
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend</h3>
+
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React JS</li>
+                    <li>Bootstrap</li>
+                    <li>Swing(UX/UI)</li>
+                </ul>
+
+            </div>
+
+            <div class="service-box">
+
+                <i class="fa-solid fa-server"></i>
+
+                <h3>Backend</h3>
+
+                <ul>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>Spring Data JPA</li>
+                    <li>REST API</li>
+                </ul>
+
+            </div>
+
+            <div class="service-box">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>Database</h3>
+
+                <ul>
+                    <li>SQL</li>
+                    <li>NoSQL</li>
+                </ul>
+
+            </div>
+
+            <div class="service-box">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <h3>Tools</h3>
+
+                <ul>
+                    <li>VS Code</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Postman</li>
+                    <li>Docker</li>
+                    <li>Git</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects">
+
+        <h2 class="heading">Featured Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Skill Matrix</h3>
+
+                    <p>
+                        Online Examination Portal developed using
+                        HTML, CSS and Java with user authentication.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Java(CRUD)</span>
+                    </div>
+
+                    <!-- <div class="project-buttons">
+                    <a href="#" class="live">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div> -->
+
+                </div>
+
+            </div>
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Employee Management System</h3>
+
+                    <p>
+                        Employee Management System where you can perform CRUD operations.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>React Js</span>
+                        <span>Spring Boot (JPA)</span>
+
+                    </div>
+
+                    <!-- <div class="project-buttons">
+                    <a href="#" class="live">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div> -->
+
+                </div>
+
+            </div>
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>E-commerce Website</h3>
+
+                    <p>
+                        E-commerce website where you can perform CRUD operations.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>React Js</span>
+                        <span>Spring Boot(JPA,JQPL)</span>
+
+                    </div>
+
+                    <!-- <div class="project-buttons">
+                    <a href="#" class="live">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div> -->
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Real Time Chat Box</h3>
+
+                    <p>
+                        Real time chat box where people can talk easily without any disturbance.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+                        <span>Spring Boot</span>
+                        <span>Websocket</span>
+                        <span>Thymealeaf</span>
+                    </div>
+
+                    <!-- <div class="project-buttons">
+                    <a href="#" class="live">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div> -->
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Skills -->
+
+    <section class="education" id="Education" style=" min-height:70vh ;">
+        <h2 class="heading">My Education</h2>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>IILM University</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Currently pursuing MCA with a focus on software development, programming, and
+                            IT technologies.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Lucknow University</h2>
+                    </div>
+                    <div class="desc">
+                        <p> BCA (Bachelor of Computer Applications) ek undergraduate degree hai jo computer programming,
+                            software development aur IT skills par kendrit hoti hai.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Intermediate</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Completed Intermediate from Career Convent College with 70% in ICSE Boards (2022).</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>High-School</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Completed High-School from Career Convent College with 60% in ICSE Boards (2020).</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Intership(Analyze-Infotech)</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Doing an internship at Analze Infotech, working on report creation, website interface
+                            updates, and debugging issues.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="container">
+            <h1 class="display-6 text-center" style="color: white; text-align: center;  padding: 10px 10px;">
+                Contact Me
+            </h1>
+        </div>
+        <form onsubmit="sendEmail(event)">
+            <div class="input-box">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="Subject" placeholder="Subject">
+
+            </div>
+            <textarea id="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer" id="footer" style=" min-height:10vh ;">
+        <div class="container">
+            <h1 class="display-6 text-center" style="color: white; text-align: center;  padding: 10px 10px;">
+                Social Media
+            </h1>
+        </div>
+
+        <div class="social">
+            <a href="https://www.instagram.com/__.shubhankar.____?igsh=MWp4Mzllczc3N20wdA=="><i
+                    class="fa-brands fa-instagram"></i></a>
+
+            <a
+                href="https://www.linkedin.com/in/shubhankar-srivastava-50537a265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                    class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/Shubhankar789090"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script>
+        document.getElementById("scrollToService").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("Service").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        document.getElementById("scrollToContact").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("contact").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        document.getElementById("scrollToEducation").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("Education").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        document.getElementById("scrollToProject").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("Project").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        document.getElementById("scrollToSkills").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("footer").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+        function sendEmail(event) {
+            event.preventDefault();
+
+            let params = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                title: document.getElementById("Subject").value,
+                message: document.getElementById("Message").value
+            };
+
+            emailjs.send("service_skkbqal", "template_5kskx6q", params)
+                .then(function () {
+                    alert("Email Sent Successfully! Thank you.");
+                    event.target.reset();
+                })
+                .catch(function (error) {
+                    console.error("EmailJS Error:", error);
+                    alert("Failed to send email: " + error.text);
+                });
+        }
+    </script>
+</body>
+
+</html>
