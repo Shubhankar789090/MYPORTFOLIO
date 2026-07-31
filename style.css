@@ -13,7 +13,7 @@
     --bg-color:#020617;
     --text-color:#e2e8f0;
     --second-bg-color:#0f172a;
-    --main-color:#06b6d4;
+    --main-color:rgba(17, 196, 232, 0.93);
 }
 
 
@@ -233,7 +233,7 @@ span{
 .typing-text span::before
 {
     content: 'Web Developer';
-    color: var(--bg-color);
+    color: aliceblue;
     animation: words 20s infinite;
 }
 .typing-text span::after
